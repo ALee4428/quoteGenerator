@@ -2,11 +2,25 @@
 <html>
   <head>
     <title>Quote Generator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    This will be a quote generator
-    <script src="script.js"></script>
-  </body>
+    <div class = "container-fluid">
+      <h1 class="intro">
+        Wise Words to Ponder...
+      </h1>
+    <div id="quoteBox">
+    </div>
+    <footer>
+      Webpage created and designed by A. Lee
+    </footer>
+    <button id = "getQuote" title = "Get new quote!" onclick = "newQuote()">
+        New Quote
+    </button>
+    <button id = "shareOnTwitter" class = "fa fa-twitter" title = "Tweet this quote!" onclick = "tweetQuote()">
+    </button>
+  </div>
+  <script src = "javascript.js"></script>
+</body>
 </html>

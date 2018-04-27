@@ -1,0 +1,43 @@
+body{
+  background-image: url("sunset.jpg");
+  font-family: Brush Script MT;
+  text-align: center;
+}
+.intro{
+  padding-top: 10rem;
+  font-size: 1.7rem;
+  font-weight: Bold;
+}
+#quoteBox{
+  background-color: #D7BDE2;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  margin: 1rem 8rem 0 8rem;
+  border-color: #512E5F;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  font-style: Oblique;
+  font-weight: Bold;
+  font-size: 1.5rem;
+}
+#shareOnTwitter{
+  background-color: #00aced;
+  margin-right: .25rem;
+  padding: .5rem .9rem .5rem .9rem;
+  border-radius: 10px;
+  font-weight: Bold;
+  float: right;
+}
+#getQuote{
+  background-color:  #512E5F;
+  margin-right: 9rem;
+  padding: .5rem .9rem .5rem .9rem;
+  border-radius: 10px;
+  float: right;
+  font-weight: Bold;
+}
+footer{
+  margin-top: .25rem;
+  font-size: 10px;
+}

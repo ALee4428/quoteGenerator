@@ -18,3 +18,14 @@ var quotes = [
   '"Whoever is happy will make others happy too."  -Anne Frank',
   '"I\'ve not failed. I\'ve just found 10,000 ways that don\'t work."  -Thomas Eddison'
 ]
+
+function newQuote(){
+  var currentQuote = (Math.floor(Math.random() * quotes.length));
+  document.getElementById("quoteBox").innerHTML = quotes[currentQuote];
+}
+function tweetQuote(){
+ window.open("https://twitter.com/intent/tweet?text=" + quoteBox.innerHTML)
+}
+document.addEventListener('DOMContentLoaded', function() {
+    newQuote();
+}, false);
