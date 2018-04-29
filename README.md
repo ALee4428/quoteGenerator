@@ -1,2 +1,2 @@
 # quoteGenerator
-freeCodeCamp quote generator project
+random quote generator project
