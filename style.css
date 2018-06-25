@@ -1,43 +1,66 @@
 body{
   background-image: url("sunset.jpg");
   font-family: Brush Script MT;
+  height: 100vh;
   text-align: center;
 }
-.intro{
-  padding-top: 10rem;
-  font-size: 1.7rem;
-  font-weight: Bold;
+h1{
+  font-size: 28px;
+  margin: 100px auto 50px auto;
+  padding: 50px auto;
 }
 #quoteBox{
   background-color: #D7BDE2;
-  padding: 3rem 1.5rem 3rem 1.5rem;
-  margin: 1rem 8rem 0 8rem;
-  border-color: #512E5F;
-  border-width: 5px;
-  border-style: solid;
+  border: 5px solid #512E5F;
   border-radius: 20px;
-  text-align: center;
+  display: inline-block;
+  font-size: 24px;
   font-style: Oblique;
   font-weight: Bold;
-  font-size: 1.5rem;
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+  width: 900px;
 }
 #shareOnTwitter{
   background-color: #00aced;
-  margin-right: .25rem;
-  padding: .5rem .9rem .5rem .9rem;
+  margin: auto 15px auto auto;
+  padding: 10px 15px;
   border-radius: 10px;
   font-weight: Bold;
   float: right;
 }
 #getQuote{
   background-color:  #512E5F;
-  margin-right: 9rem;
-  padding: .5rem .9rem .5rem .9rem;
+  margin-right: 175px;
+  padding: 10px 15px;
   border-radius: 10px;
   float: right;
   font-weight: Bold;
 }
 footer{
-  margin-top: .25rem;
   font-size: 10px;
+}
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 16px;
+    margin: 50px auto 25px auto;
+    padding: 25px auto;
+  }
+  #quoteBox{
+    font-size: 12px;
+    font-style: Oblique;
+    font-weight: Bold;
+    height: 75px;
+    margin: 0 auto;
+    padding: 35px 15px;
+    text-align: center;
+    width: 250px;
+  }
+  #shareOnTwitter{
+    margin: 15px 15px 15px 100px;
+  }
+  #getQuote{
+    margin: 15px 50px 15px 0;
+  }
 }
